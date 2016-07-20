@@ -120,12 +120,15 @@ div 바로 안에 있는 a 태그 선택(예를 들어 div p a 는 선택되지 
 같은 부모요소를 가지는 동위 관계에서 뒤에 위치한 태그를 선택할 때 사용.
 ```html
 <div>
-	<h2>title</h2>
-	<h3>title</h3>
-	<h3>title</h3>
-	<h2>title</h2>
-	<h3>title</h3>
+    <h2>title</h2>
+    <h3>title</h3>
+    <h3>title</h3>
+    <h2>title</h2>
+    <h3>title</h3>
 </div>
+
+h2+h3 {color:green}
+h2~h3 {color:red}
 ```
 ### 3.7.1 인접 형제 선택자
 h2+h3 두번째, 다섯번째 h3 만 적용
@@ -146,6 +149,14 @@ href 속성을 가진 a 태그에 적용되는 선택자
 ```html
 a:link 링크 지정 시
 a:visited 링크 방문 후
+
+<a href="http://naver.com" target="_blank">naver</a>
+<a href="http://google.com" target="_blank">google</a>
+
+a:link {color:red}
+a:hover {color:blue}
+a:visited {color:pink}
+a:active {color:orange}
 ```
 작성 시 순서중요
 link -> visited -> hover -> active
@@ -168,14 +179,14 @@ css3(ie6~8 지원안함)
 :disabled 사용 불가능한 input 태그를 선택
 ```
 ```html
-<input type="checkbox" checked="checked" />
-input[type=checkbox]:checked {height:0}
 
+<input type="checkbox" checked="checked" />
 <input type="checkbox" value="enabled"/>
 <input type="checkbox" value="disabled" disabled="disabled"/>
 
-input:enabled {height:5px}
-input:disabled {height:20px}
+/* input:checked {height:0} */
+/* input:enabled {height:5px} */
+/* input:disabled {margin-left:50px;} */
 ```
 
 ##3.10 구조 선택자(구조적 가장 선택자)
@@ -214,7 +225,7 @@ css3
 
 ## 3.11 문자 선택자
 ### 3.11.1 시작 문자 선택자
-태그 내부 특정 조건의 문자를 선택.
+태그 내부 특정 조건의 문자를 선택
 ```html
 ::first-letter 문장의 맨 첫 글자를 선택(한글도 적용됨.)
 ::first-line 문장의 맨 첫줄을 선택(브라우저 가로폭에 따라 첫 줄도 달라짐.)
