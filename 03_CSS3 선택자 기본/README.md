@@ -86,19 +86,20 @@ css3
 ```
 ```html
 <div>
+  <a href="naver.com">naver.com</a>
   <a href="naver.com" title="go naver 바로가기">naver.com</a>
   <a href="google.com" title="go google">google.com</a>
-  <a href="http://daum.net" title="daum">daum.net</a>
+  <a href="http://daum.net" title="daum.net">daum.net</a>
+  <a title="daum">daum.net</a>
 </div>
 
-a[href] {font-size:20px;font-weight:bold;}
+a[href] {display:block;font-size:20px;font-weight:bold;}
 a[href="naver.com"] {color:pink;}
 a[title|="go google"] {color:orange}
-a[title~="go"] {color:red}
 a[title~="바로가기"] {color:green}
-a[href*=".com"] {text-decoration:none;}
-a[title^="http"] {font-size:30px;}
+a[href^="http"] {font-size:30px;}
 a[title$=".net"] {color:black;}
+a[href*="d"] {text-decoration:none;}
 ```
 
 ## 3.6 후손 선택자와 자손 선택자
