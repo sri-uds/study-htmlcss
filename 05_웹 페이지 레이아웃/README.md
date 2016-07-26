@@ -165,8 +165,8 @@ input[type=checkbox] {
 </header>
 ```
 ## 05.5 웹 폰트
-사용자가 웹 페이지에 접속하는 순간 폰트를 자동으로 내려받고 해당 웹 페이지에서 사용할 수 있게 만들어주는 기능
-구글폰트 : http://www.google.com/fonts
+- 사용자가 웹 페이지에 접속하는 순간 폰트를 자동으로 내려받고 해당 웹 페이지에서 사용할 수 있게 만들어주는 기능
+- 구글폰트 : http://www.google.com/fonts
 ```html
 <head>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
