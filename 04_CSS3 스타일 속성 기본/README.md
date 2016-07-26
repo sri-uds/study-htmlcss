@@ -8,10 +8,10 @@
 ### 4.2.1 display속성
 •	flex(flexbox) : 유연성을 뜻하는 말로 블록 레이아웃, 인라인 레이아웃, 테이블 레이아웃 및 위치 지정 레이아웃 모드와 더불어 보다 복잡한 블록 타입 레이아웃으로 어떤 방향에든 위치할 수 있으며, 동적으로 변경가능한 순서를 지정할 수도 있고, 가용한 공간 안에서 크기와 위치를 자동으로 조정 한다.
 
-참고 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/, 
+참고 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-       http://flexboxfroggy.com/
-       
+http://flexboxfroggy.com/
+
 •	inline-flex : 인라인-레벨의 flex 컨테이너처럼 요소를 표현한다.
 
 •	grid : 블록 레이아웃으로 가로와 세로로 분활 된 화면을 말하며 시각적 질서와 일관성을 유지시켜 해당 웹사이트의 주제를 쉽게 파악하게 해준다
