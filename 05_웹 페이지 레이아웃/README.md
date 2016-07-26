@@ -138,12 +138,144 @@ input[type=checkbox] {
 }
 ```
 ## 05.4 헤더 구조 작성
+```html
+<header id="main_header">
+    <div id="title">
+        <h1>Rint Development</h1>
+        <h2>HTML5 + CSS3 Basic</h2>
+    </div>
+    <nav id="main_gnb">
+        <ul>
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Game</a></li>
+            <li><a href="#">Simulation</a></li>
+            <li><a href="#">Data</a></li>
+        </ul>
+    </nav>
+    <nav id="main_lnb">
+        <ul>
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS3</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">Node.js</a></li>
+        </ul>
+    </nav>
+</header>
+```
 ## 05.5 웹 폰트
+사용자가 웹 페이지에 접속하는 순간 폰트를 자동으로 내려받고 해당 웹 페이지에서 사용할 수 있게 만들어주는 기능
+구글폰트 : http://www.google.com/fonts
+```html
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <style media="screen">
+    /* font-family: 'Raleway', sans-serif; */
+  </style>
+</head>
+```
 ## 05.6 수평 메뉴
+float속성을 사용해 가로로 나열하는 메뉴
 ## 05.7 컨텐츠 구성
+```html
+<div id="content"></div>
+```
 ## 05.8 본문 구성
+```html
+<section id="main_section">
+```
 ## 05.9 사이드 탭바 구성
+CSS3를 이용해서 탭바구성
+```html
+<style media="screen">
+  /* 첫 번째 탭 */
+        input:nth-of-type(1) { display: none; }
+        input:nth-of-type(1) ~ div:nth-of-type(1) { display: none; }
+        input:nth-of-type(1):checked ~ div:nth-of-type(1) { display: block; }
+        /* 두 번째 탭 */
+        input:nth-of-type(2) { display: none; }
+        input:nth-of-type(2) ~ div:nth-of-type(2) { display: none; }
+        input:nth-of-type(2):checked ~ div:nth-of-type(2) { display: block; }
+</style>
+<aside id="main_aside">
+    <input id="first" type="radio" name="tab" checked="checked" />
+    <input id="second" type="radio" name="tab" />
+    <section class="buttons">
+        <label for="first">First</label>
+        <label for="second">Second</label>
+    </section>
+    <div class="tab_item">
+        <ul>
+            <li class="item"><a href="#">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/45x45" />
+                </div>
+                <div class="description">
+                    <strong>HTML5 Canvas</strong><p>2012-03-15</p>
+                </div>
+            </a></li>
+        </ul>
+    </div>
+    <div class="tab_item">
+        <ul>
+            <li class="item"><a href="#">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/45x45" />
+                </div>
+                <div class="description">
+                    <strong>CSS3 Transition</strong><p>2012-03-15</p>
+                </div>
+            </a></li>
+        </ul>
+    </div>
+</aside>
+```
 ## 05.10 목록 구성
+```html
+<div class="tab_item">
+    <ul>
+        <li class="item"><a href="#">
+            <div class="thumbnail">
+                <img src="http://placehold.it/45x45" />
+            </div>
+            <div class="description">
+                <strong>HTML5 Canvas</strong><p>2012-03-15</p>
+            </div>
+        </a></li>
+        <li class="item"><a href="#">
+            <div class="thumbnail">
+                <img src="http://placehold.it/45x45" />
+            </div>
+            <div class="description">
+                <strong>HTML5 Audio</strong><p>2012-03-15</p>
+            </div>
+        </a></li>
+        <li class="item"><a href="#">
+            <div class="thumbnail">
+                <img src="http://placehold.it/45x45" />
+            </div>
+            <div class="description">
+                <strong>HTML5 Video</strong><p>2012-03-15</p>
+            </div>
+        </a></li>
+        <li class="item"><a href="#">
+            <div class="thumbnail">
+                <img src="http://placehold.it/45x45" />
+            </div>
+            <div class="description">
+                <strong>HTML5 Semantic Web</strong><p>2012-03-15</p>
+            </div>
+        </a></li>
+    </ul>
+</div>
+```
 ## 05.11 푸터 구성
+```html
+<footer id="main_footer">
+    <h3>HTML5 + CSS3 Basic</h3>
+    <address>Website Layout Basic</address>
+</footer>
+```
 ## 05.12 정리
 http://jsbin.com/limugacipe/edit?html,css,output
