@@ -15,6 +15,7 @@
 •	inline-flex : 인라인-레벨의 flex 컨테이너처럼 요소를 표현한다.
 
 •	grid : 블록 레이아웃으로 가로와 세로로 분활 된 화면을 말하며 시각적 질서와 일관성을 유지시켜 해당 웹사이트의 주제를 쉽게 파악하게 해준다
+
 참고 - http://gridpak.com/
 
 ### 4.2.2 visibility 속성
@@ -25,6 +26,7 @@
 •	hidden : 박스가 보이지 않지만 공간을 확보하기 때문에 레이아웃에 영향을 미친다.
 
 •	collapse : 내부 테이블 객체(행, 행 그룹, 열, 열 그룹)에 적용된다. 
+
 참고 - http://www.w3schools.com/cssref/playit.asp?filename=playcss_visibility
 
 ### 4.4.1 border-width 속성
@@ -36,5 +38,7 @@
 
 ### 4.5.3 background-repeat 속성
 •	round : 배경 영역을 채우기 위해 필요한 만큼만 반복한다.(repeat) 이미지 영역을 채우지 못하면 이미즤 크기가 자동 조정된다.
+
 •	space : 전체를 균등하게 하여 배경 영역을 채운다. 
+
 참고 - http://www.w3schools.com/cssref/playit.asp?filename=playcss_background-repeat&preval=no-repeat
