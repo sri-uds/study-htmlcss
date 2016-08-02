@@ -10,14 +10,14 @@ jquery mobile, sencha touch, phonegap등 다양한 라이브러리를 이용해 
 
 ## 6.2 모바일 웹 개발 주의 사항
 
-[모바일 웹 사이트 구축을 위해 고려해야 할 사항] http://soomtong.github.io/steps-in-node/2015/03/26/mobile-website/
+[모바일 웹 사이트 구축을 위해 고려해야 할 사항](http://soomtong.github.io/steps-in-node/2015/03/26/mobile-website/)
 
 ## 6.3 뷰포트 meta 태그
 
 
-[모바일 웹 제작시 meta태그 설정]http://maen2001.tistory.com/22
+[모바일 웹 제작시 meta태그 설정](http://maen2001.tistory.com/22)
 
-[스마트폰 해상도]http://witinweb.com/post/91108540422/%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0-%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EA%B8%B0-i-%ED%95%B4%EC%83%81%EB%8F%84%EB%9E%80
+[스마트폰 해상도](http://witinweb.com/post/91108540422/%EB%8B%A4%EC%96%91%ED%95%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0-%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EA%B8%B0-i-%ED%95%B4%EC%83%81%EB%8F%84%EB%9E%80)
 
 ```html
 <!-- 사람인 viewport -->
