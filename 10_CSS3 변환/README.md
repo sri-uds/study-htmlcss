@@ -317,4 +317,4 @@ backface-visibility 속성은 3차원 공간에서 평면의 후면을 보이거
 ### 10.4.2 스타일 사용
 ### 10.4.3 애니메이션 적용
 
-번외: http://mohwaproject.tistory.com/entry/ReflowLayout-%EA%B3%BC-Repaint-%EA%B3%BC%EC%A0%95-%EB%B0%8F-%EC%B5%9C%EC%A0%81%ED%99%94
+번외: <a href="http://mohwaproject.tistory.com/entry/ReflowLayout-%EA%B3%BC-Repaint-%EA%B3%BC%EC%A0%95-%EB%B0%8F-%EC%B5%9C%EC%A0%81%ED%99%94">Reflow or  Repaint 과정</a>
