@@ -1,7 +1,4 @@
 # 9 CSS3 변경과 애니메니션
-- 
-- 
-
 ## 9.1 변형 속성 기본
 - transition-property : 색상, 위치 등 변화의 대상이 되는 CSS 속성을 지정함.
 - transition-duration : 속성의 변화에 걸리는 시간 지정하는 속성
