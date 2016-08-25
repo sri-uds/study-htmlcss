@@ -35,6 +35,7 @@ X,Y축이 있는 화면 좌표
 </body>
 </html>
 ```
+http://jsbin.com/coduxoxuqe/edit?html,output
 번외:-webkit-transform: rotate(0.000001deg);
 
 ### 10.1.2 2차원 변환 함수
@@ -66,6 +67,7 @@ X,Y축이 있는 화면 좌표
 </body>
 </html>
 ```
+http://jsbin.com/davajohone/edit?html,output
 *변환 함수 순서 중요*
 ### 10.1.3 transform-origin 속성
 기본은 태그영역의 중심을 변환 중심으로 잡는다.
@@ -104,6 +106,7 @@ X,Y축이 있는 화면 좌표
 </body>
 </html>
 ```
+http://jsbin.com/kalidicoba/edit?html,output
 ## 10.2 3차원 변환
 ### 10.2.1 3차원 변환 함수
 ```html
@@ -145,6 +148,7 @@ X,Y축이 있는 화면 좌표
 </body>
 </html>
 ```
+http://jsbin.com/radonenezu/edit?html,output
 ### 10.2.1 transform-style 속성
 ```html
 <!DOCTYPE html>
@@ -198,6 +202,7 @@ X,Y축이 있는 화면 좌표
 </body>
 </html>
 ```
+http://jsbin.com/naliduxoze/edit?html,output
 ### 10.2.1 backface-visibility 속성
 backface-visibility 속성은 3차원 공간에서 평면의 후면을 보이거나 말거나 속성
 ```html
@@ -254,6 +259,7 @@ backface-visibility 속성은 3차원 공간에서 평면의 후면을 보이거
 </html>
 
 ```
+http://jsbin.com/coturevoki/edit?html,output
 ## 10.3 원근법
 화면에 얼마나 많은 3차원 픽셀을 놓을 것인지 정의
 ```html
@@ -312,6 +318,7 @@ backface-visibility 속성은 3차원 공간에서 평면의 후면을 보이거
 </html>
 
 ```
+http://jsbin.com/jiwudisize/edit?html,output
 ## 10.4 회전목마
 ### 10.4.1 body 태그 구성
 ### 10.4.2 스타일 사용
