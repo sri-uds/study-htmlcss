@@ -5,7 +5,7 @@
 ## 9.1 변형 속성 기본
 - transition-property : 색상, 위치 등 변화의 대상이 되는 CSS 속성을 지정함.
 - transition-duration : 속성의 변화에 걸리는 시간 지정하는 속성
-- transition-timing-function : 속성 변화의 속도를 지정하는 속성(linear | ease | ease-in | ease-out | ease-in-out | cubic-bezier(n,n,n,n))
+- transition-timing-function : 속성 변화의 속도를 지정하는 속성(linear | ease | ease-in | ease-out | ease-in-out | cubic-bezier(n,n,n,n))<br/>
   linear : 일정한 속도로 변화
   ease : 천천히 시작한후 중간에 가속하다가 감속하면서 끝남
   ease-in : 천천히 시작한후 가속됨
