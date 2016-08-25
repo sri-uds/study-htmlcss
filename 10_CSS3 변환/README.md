@@ -1,11 +1,11 @@
-# 10 CSS3 º¯È¯
-HTML5¿¡¼­ 3Â÷¿øÀ» ±¸ÇöÇÏ´Â ¹æ¹ı
-- ÀÚ¹Ù½ºÅ©¸³Æ®¸¦ »ç¿ëÇÑ WebGL : WebGLÀº À¥ ±â¹İÀÇ ±×·¡ÇÈ ¶óÀÌºê·¯¸®ÀÌ´Ù. ÀÚ¹Ù½ºÅ©¸³Æ® ÇÁ·Î±×·¡¹Ö ¾ğ¾î¸¦ ÅëÇØ¼­ »ç¿ëÇÒ ¼ö ÀÖÀ¸¸ç È£È¯¼ºÀÌ ÀÖ´Â À¥ ºê¶ó¿ìÀú¿¡¼­ ÀÎÅÍ·¢Æ¼ºêÇÑ 3D ±×·¡ÇÈÀ» »ç¿ëÇÒ ¼ö ÀÖµµ·Ï Á¦°øµÈ´Ù.
-- CSS3¸¦ »ç¿ëÇÑ 3Â÷¿ø º¯È¯
+# 10 CSS3 ë³€í™˜
+HTML5ì—ì„œ 3ì°¨ì›ì„ êµ¬í˜„í•˜ëŠ” ë°©ë²•
+- ìë°”ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©í•œ WebGL : WebGLì€ ì›¹ ê¸°ë°˜ì˜ ê·¸ë˜í”½ ë¼ì´ë¸ŒëŸ¬ë¦¬ì´ë‹¤. ìë°”ìŠ¤í¬ë¦½íŠ¸ í”„ë¡œê·¸ë˜ë° ì–¸ì–´ë¥¼ í†µí•´ì„œ ì‚¬ìš©í•  ìˆ˜ ìˆìœ¼ë©° í˜¸í™˜ì„±ì´ ìˆëŠ” ì›¹ ë¸Œë¼ìš°ì €ì—ì„œ ì¸í„°ë™í‹°ë¸Œí•œ 3D ê·¸ë˜í”½ì„ ì‚¬ìš©í•  ìˆ˜ ìˆë„ë¡ ì œê³µëœë‹¤.
+- CSS3ë¥¼ ì‚¬ìš©í•œ 3ì°¨ì› ë³€í™˜
 
-## 10.1 2Â÷¿ø º¯È¯
-X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
-### 10.1.1 transform ¼Ó¼º
+## 10.1 2ì°¨ì› ë³€í™˜
+X,Yì¶•ì´ ìˆëŠ” í™”ë©´ ì¢Œí‘œ
+### 10.1.1 transform ì†ì„±
 ```html
 <!DOCTYPE html>
 <html>
@@ -35,7 +35,9 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
 </body>
 </html>
 ```
-### 10.1.2 2Â÷¿ø º¯È¯ ÇÔ¼ö
+ë²ˆì™¸:-webkit-transform: rotate(0.000001deg);
+
+### 10.1.2 2ì°¨ì› ë³€í™˜ í•¨ìˆ˜
 ```html
 <!DOCTYPE html>
 <html>
@@ -64,9 +66,9 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
 </body>
 </html>
 ```
-*º¯È¯ ÇÔ¼ö ¼ø¼­ Áß¿ä*
-### 10.1.3 transform-origin ¼Ó¼º
-±âº»Àº ÅÂ±×¿µ¿ªÀÇ Áß½ÉÀ» º¯È¯ Áß½ÉÀ¸·Î Àâ´Â´Ù.
+*ë³€í™˜ í•¨ìˆ˜ ìˆœì„œ ì¤‘ìš”*
+### 10.1.3 transform-origin ì†ì„±
+ê¸°ë³¸ì€ íƒœê·¸ì˜ì—­ì˜ ì¤‘ì‹¬ì„ ë³€í™˜ ì¤‘ì‹¬ìœ¼ë¡œ ì¡ëŠ”ë‹¤.
 ```html
 <!DOCTYPE html>
 <html>
@@ -102,8 +104,8 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
 </body>
 </html>
 ```
-## 10.2 3Â÷¿ø º¯È¯
-### 10.2.1 3Â÷¿ø º¯È¯ ÇÔ¼ö
+## 10.2 3ì°¨ì› ë³€í™˜
+### 10.2.1 3ì°¨ì› ë³€í™˜ í•¨ìˆ˜
 ```html
 <!DOCTYPE html>
 <html>
@@ -121,12 +123,12 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
             position:absolute; left:0; top:0;
             opacity:0.3;
         }
-        /* ¿·¸é */
+        /* ì˜†ë©´ */
         div:nth-child(1) {transform: rotateY(0deg) translate3d(0,0,100px);background-color: red;}
         div:nth-child(2) {transform: rotateY(90deg) translate3d(0,0,100px);background-color: green;}
         div:nth-child(3) {transform: rotateY(180deg) translate3d(0,0,100px);background-color: blue;}
         div:nth-child(4) {transform: rotateY(270deg) translate3d(0,0,100px);background-color: yellow;}
-        /* À­¸é°ú ¾Æ·§¸é */
+        /* ìœ—ë©´ê³¼ ì•„ë«ë©´ */
         div:nth-child(5) {transform: rotateX(90deg) translate3d(0,0,100px);background-color: brown;}
         div:nth-child(6) {transform: rotateX(270deg) translate3d(0,0,100px);background-color: pink;}
     </style>
@@ -143,7 +145,7 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
 </body>
 </html>
 ```
-### 10.2.1 transform-style ¼Ó¼º
+### 10.2.1 transform-style ì†ì„±
 ```html
 <!DOCTYPE html>
 <html>
@@ -174,12 +176,12 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
             position:absolute; left:0; top:0;
             opacity:0.3;
         }
-        /* ¿·¸é */
+        /* ì˜†ë©´ */
         div:nth-child(1) {transform: rotateY(0deg) translate3d(0,0,100px);background-color: red;}
         div:nth-child(2) {transform: rotateY(90deg) translate3d(0,0,100px);background-color: green;}
         div:nth-child(3) {transform: rotateY(180deg) translate3d(0,0,100px);background-color: blue;}
         div:nth-child(4) {transform: rotateY(270deg) translate3d(0,0,100px);background-color: yellow;}
-        /* À­¸é°ú ¾Æ·§¸é */
+        /* ìœ—ë©´ê³¼ ì•„ë«ë©´ */
         div:nth-child(5) {transform: rotateX(90deg) translate3d(0,0,100px);background-color: brown;}
         div:nth-child(6) {transform: rotateX(270deg) translate3d(0,0,100px);background-color: pink;}
     </style>
@@ -196,8 +198,8 @@ X,YÃàÀÌ ÀÖ´Â È­¸é ÁÂÇ¥
 </body>
 </html>
 ```
-### 10.2.1 backface-visibility ¼Ó¼º
-backface-visibility ¼Ó¼ºÀº 3Â÷¿ø °ø°£¿¡¼­ Æò¸éÀÇ ÈÄ¸éÀ» º¸ÀÌ°Å³ª ¸»°Å³ª ¼Ó¼º
+### 10.2.1 backface-visibility ì†ì„±
+backface-visibility ì†ì„±ì€ 3ì°¨ì› ê³µê°„ì—ì„œ í‰ë©´ì˜ í›„ë©´ì„ ë³´ì´ê±°ë‚˜ ë§ê±°ë‚˜ ì†ì„±
 ```html
 <!DOCTYPE html>
 <html>
@@ -229,12 +231,12 @@ backface-visibility ¼Ó¼ºÀº 3Â÷¿ø °ø°£¿¡¼­ Æò¸éÀÇ ÈÄ¸éÀ» º¸ÀÌ°Å³ª ¸»°Å³ª ¼Ó¼º
             opacity:0.3;
             /* backface-visibility: hidden; */
         }
-        /* ¿·¸é */
+        /* ì˜†ë©´ */
         div:nth-child(1) {transform: rotateY(0deg) translate3d(0,0,100px);background-color: red;}
         div:nth-child(2) {transform: rotateY(90deg) translate3d(0,0,100px);background-color: green;}
         div:nth-child(3) {transform: rotateY(180deg) translate3d(0,0,100px);background-color: blue;}
         div:nth-child(4) {transform: rotateY(270deg) translate3d(0,0,100px);background-color: yellow;}
-        /* À­¸é°ú ¾Æ·§¸é */
+        /* ìœ—ë©´ê³¼ ì•„ë«ë©´ */
         div:nth-child(5) {transform: rotateX(90deg) translate3d(0,0,100px);background-color: brown;}
         div:nth-child(6) {transform: rotateX(270deg) translate3d(0,0,100px);background-color: pink;}
     </style>
@@ -252,8 +254,8 @@ backface-visibility ¼Ó¼ºÀº 3Â÷¿ø °ø°£¿¡¼­ Æò¸éÀÇ ÈÄ¸éÀ» º¸ÀÌ°Å³ª ¸»°Å³ª ¼Ó¼º
 </html>
 
 ```
-## 10.3 ¿ø±Ù¹ı
-È­¸é¿¡ ¾ó¸¶³ª ¸¹Àº 3Â÷¿ø ÇÈ¼¿À» ³õÀ» °ÍÀÎÁö Á¤ÀÇ
+## 10.3 ì›ê·¼ë²•
+í™”ë©´ì— ì–¼ë§ˆë‚˜ ë§ì€ 3ì°¨ì› í”½ì…€ì„ ë†“ì„ ê²ƒì¸ì§€ ì •ì˜
 ```html
 <!DOCTYPE html>
 <html>
@@ -287,12 +289,12 @@ backface-visibility ¼Ó¼ºÀº 3Â÷¿ø °ø°£¿¡¼­ Æò¸éÀÇ ÈÄ¸éÀ» º¸ÀÌ°Å³ª ¸»°Å³ª ¼Ó¼º
             opacity:0.3;
             /* backface-visibility: hidden; */
         }
-        /* ¿·¸é */
+        /* ì˜†ë©´ */
         div:nth-child(1) {transform: rotateY(0deg) translate3d(0,0,100px);background-color: red;}
         div:nth-child(2) {transform: rotateY(90deg) translate3d(0,0,100px);background-color: green;}
         div:nth-child(3) {transform: rotateY(180deg) translate3d(0,0,100px);background-color: blue;}
         div:nth-child(4) {transform: rotateY(270deg) translate3d(0,0,100px);background-color: yellow;}
-        /* À­¸é°ú ¾Æ·§¸é */
+        /* ìœ—ë©´ê³¼ ì•„ë«ë©´ */
         div:nth-child(5) {transform: rotateX(90deg) translate3d(0,0,100px);background-color: brown;}
         div:nth-child(6) {transform: rotateX(270deg) translate3d(0,0,100px);background-color: pink;}
     </style>
@@ -310,7 +312,7 @@ backface-visibility ¼Ó¼ºÀº 3Â÷¿ø °ø°£¿¡¼­ Æò¸éÀÇ ÈÄ¸éÀ» º¸ÀÌ°Å³ª ¸»°Å³ª ¼Ó¼º
 </html>
 
 ```
-## 10.4 È¸Àü¸ñ¸¶
-### 10.4.1 body ÅÂ±× ±¸¼º
-### 10.4.2 ½ºÅ¸ÀÏ »ç¿ë
-### 10.4.3 ¾Ö´Ï¸ŞÀÌ¼Ç Àû¿ë
+## 10.4 íšŒì „ëª©ë§ˆ
+### 10.4.1 body íƒœê·¸ êµ¬ì„±
+### 10.4.2 ìŠ¤íƒ€ì¼ ì‚¬ìš©
+### 10.4.3 ì• ë‹ˆë©”ì´ì…˜ ì ìš©
